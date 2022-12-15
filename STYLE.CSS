@@ -1,14 +1,145 @@
 * {
     margin: 0;
     padding: 0;
+} 
+
+html {
+    font-family: sans-serif;
 }
 
 #header {
     display: flex;
     background-color: black;
     align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-    #header h1 {
+    #header a {
         color: white;
+        text-decoration: none;
+        font-size: 15px;
     }
+
+#nav_bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+    #nav_bar .Heading {
+        font-size: 45px;
+    }
+
+#btn_signout {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#main_container {
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+}
+
+#profile_display {
+    border: 2px solid rgb(126, 124, 124);
+    border-top: 100px solid rgb(65, 145, 206);
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+    #profile_display>img {
+        margin-top: -100px;
+        height: 125px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #profile_display p {
+        margin: 5px;
+    }
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.location img {
+    height: 20px;
+}
+
+#settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#settings>img {
+    height: 25px;
+    margin-top: 5px;
+}
+
+#education {
+    border: 2px solid rgb(126, 124, 124);
+}
+
+    #education>h1 {
+        background-color: rgb(62, 51, 43);
+        color: white;
+        padding: 10px;
+    }
+
+.info {
+    margin: 10px;
+}
+
+.dates {
+    color: grey;
+    margin: 10px;
+}
+
+#connection_requests {
+    border: 2px solid grey;
+}
+
+.con_head {
+    background-color: rgb(113, 101, 93);
+    padding: 10px;
+}
+
+    .con_head span {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: grey;
+        border-radius: 50%;
+    }
+
+#connection>img {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#connection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#acpt_dcl {
+    
+}
+
+
+#left_col {
+    flex: 3;
+    gap: 15px;
+}
+
+#right_col {
+    flex: 2;
+}
